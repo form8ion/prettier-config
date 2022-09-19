@@ -4,4 +4,3 @@ repository:
   description: shareable config for prettier
   homepage: https://npm.im/@form8ion/prettier-config
   private: false
-  allow_auto_merge: true
