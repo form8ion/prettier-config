@@ -16,7 +16,8 @@
     "lint:md": "remark . --frail",
     "generate:md": "remark . --output",
     "lint:peer": "npm ls >/dev/null",
-    "test": "npm-run-all --print-label --parallel lint:*"
+    "test": "npm-run-all --print-label --parallel lint:*",
+    "lint:publish": "publint --strict"
   },
   "files": [
     "example.js",
@@ -38,6 +39,7 @@
     "husky": "8.0.3",
     "lockfile-lint": "4.12.0",
     "npm-run-all2": "5.0.0",
+    "publint": "0.2.2",
     "remark-cli": "11.0.0",
     "remark-toc": "8.0.1"
   },
