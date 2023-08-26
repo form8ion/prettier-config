@@ -5,6 +5,7 @@ shareable config for [prettier](https://prettier.io/)
 <!--status-badges start -->
 
 [![Node CI Workflow Status][github-actions-ci-badge]][github-actions-ci-link]
+![SLSA Level 2][slsa-badge]
 
 <!--status-badges end -->
 
@@ -96,3 +97,5 @@ $ npm test
 [npm-link]: https://www.npmjs.com/package/@form8ion/prettier-config
 
 [npm-badge]: https://img.shields.io/npm/v/@form8ion/prettier-config?logo=npm
+
+[slsa-badge]: https://slsa.dev/images/gh-badge-level2.svg
